@@ -2,12 +2,12 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 var mongoose = require('mongoose');
-// mongoose.connect('mongodb://vishal:Vishal!@#123@ds157834.mlab.com:57834/mydb',{ useNewUrlParser: true });
+
 var url = 'mongodb://ds157834.mlab.com:57834/mydb';
 var auth = {
     auth: {
-        user:'vishal',
-        password:'Vishal!@#123'
+        user:'Your mLab username',
+        password:'Your mLab password'
     },
     useNewUrlParser:true
 };
