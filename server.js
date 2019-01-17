@@ -86,7 +86,7 @@ app.put('/api/inventory/:id', function(req, res){
         quantity:req.body.quantity,
         delivered:req.body.delivered,
     };
-    // console.log(req.body);
+	
     Inventory.findOneAndReplace({_id:req.params.id}, query, function(err, inventory){
         if(err)
             res.send(err);
