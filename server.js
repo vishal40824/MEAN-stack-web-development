@@ -6,8 +6,8 @@ var mongoose = require('mongoose');
 var url = 'mongodb://ds157834.mlab.com:57834/mydb';
 var auth = {
     auth: {
-        user:'Your mLab username',
-        password:'Your mLab password'
+        user:'Your_mLab_username',
+        password:'Your_mLab_password'
     },
     useNewUrlParser:true
 };
