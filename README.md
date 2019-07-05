@@ -2,7 +2,7 @@
 
 This project uses mLab as the mongoDB client to push all the data to the Cloud.
 
-Use *mLab* for MongoDB project deployment learning over the cloud: **https://mlab.com/welcome**
+Use *mLab* for MongoDB project deployment over the cloud: **https://mlab.com/welcome**
 
 There is still a lot of work needed to be done in this project, including 
 providing rich interface and also giving validations to the forms.
